@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=Exo:wght@100;300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=Montserrat:wght@100;200;300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Nunito';
+    font-family:'Montserrat';
 }
 
 .hero{
@@ -24,7 +23,7 @@ nav{
     align-items: center;
     padding: 18px 8%;
     position: fixed;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.75);
 }
 
 nav .logo{
@@ -50,7 +49,46 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-weight: 800;
+    font-weight: 400;
+    overflow: hidden;
+    display:flex;
+    text-transform: uppercase;
+    transition: .3s;
+    position: relative;
+}
+
+nav ul li a:before{
+    content: '';
+    position:absolute;
+    top: 0;
+    right: 100%;
+    width: 50%;
+    height: 2px;
+    background: #F7EDDB;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+nav ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 50%;
+    height: 2px;
+    background: #ffffff;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+nav ul li a:hover{
+    color:#fff;
+}
+
+nav ul li a:hover:before{
+    right: 0;
+}
+
+nav ul li a:hover:after{
+    left: 0;
 }
 
 .hero__main{
@@ -96,7 +134,13 @@ nav ul li a{
     padding: 10px 35px;
     border-radius: 30px;
     margin-right: 15px;
+    transition: all 300ms ease;
 }
+
+.botones__inicio:hover{
+    border: 2px solid rgb(79, 73, 69);
+    background-color: rgb(51, 49, 49);
+}    
 
 /* FOOTER */
 
@@ -146,15 +190,16 @@ nav ul li a{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-right:10px;
-    background-color: rgb(43, 40, 40); 
+    background-color: rgb(255, 255, 255); 
     text-align: center;
     transition: all 300ms ease;
 }
 
 .piepagina .grupo1 .red-social a:hover{
-    color:aquamarine;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 46, 46);
 }
 
 
