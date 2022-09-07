@@ -6,36 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x=icon">
     <script src="https://kit.fontawesome.com/7331bf0035.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles/style.css" />
     <title>Residencia Galatea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css" />
 </head>
 
 <body>
 
     <section class="hero">
 
-        <header class="hero__header">
-
-            <nav>
-
-                <div class="logo">
-
-                    <a href="./index.html"><img src="./assets/img/logo.png" alt="logo" /></a>
-
-                    <span>Galatea</span>
-                    
-                </div>
-
-                <ul>
-                    <li><a href="./pages/residencias.html">Residencias</a></li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                    <li><a href="./pages/actividades.html">Actividades</a></li>
-                    <li><a href="./pages/contacto.html" >Contacto</a></li>
-                </ul>
-
-            </nav>
-
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" >
+                <img src="./assets/img/logo.png" href="/index.html" alt="logo" width="55" height="55" class="d-inline-block align-text-top">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class=" navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/residencias.html">Residencias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/actividades.html">Actividades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
 
         <main class="hero__main">
 
@@ -53,17 +60,11 @@
 
             </div>
 
-            <!-- <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#000;" ></path></svg>
-            </div> -->
-
         </main>
-        
-
-        
         
     </section>
 
-    <footer class="piepagina">
+    <footer class="piepagina bg-dark">
 
         <div class="grupo1">
 
@@ -101,6 +102,7 @@
         </div>
 
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
