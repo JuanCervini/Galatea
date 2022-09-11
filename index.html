@@ -15,10 +15,10 @@
 
     <section class="hero">
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container-fluid">
-              <a class="navbar-brand" >
-                <img src="./assets/img/logo.png" href="/index.html" alt="logo" width="55" height="55" class="d-inline-block align-text-top ms-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./assets/img/logo.png" href="/index.html" alt="logo" width="55" height="55" class="d-inline-block align-text-top">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,8 +46,11 @@
 
         <main class="hero__main">
 
-                <h1>GALATEA<br>RESIDENCIA ASISTIDA</h1>
-                <p>Espacios pensados para la asistencia de las personas mayores.
+          <div class="container d-flex flex-column justify-content-center align-items-center">
+
+                <h1 class="pb-2 fs-1 fw-bold">GALATEA</h1>
+                <h2 class="pb-2 fs-1 fw-bold">RESIDENCIA ASISTIDA</h2>
+                <p class="lh-base fs-5 text-center">Espacios pensados para la asistencia de las personas mayores.
                         Además de brindar atención a través de las diferentes especialidades del campo de la salud,
                         realizamos un conjunto de actividades y talleres tendientes a estimular los aspectos más saludables.</p>
                 
@@ -56,56 +59,43 @@
                     <a href="./pages/residencias.html"class="botones__inicio">Ver Mas</a>
                     <a href="./pages/contacto.html"class="botones__inicio">Contactar</a>
 
-                </div>   
-
-            </div>
-
+                </div>
+          </div>
         </main>
         
     </section>
 
 
-    <footer class="container text-start bg-dark mw-100 text-light py-5">
+    <footer class="container text-center bg-dark mw-100 text-light py-5">
 
       <div class="row">
     
-          <div class="col-md-3 d-flex flex-column">
-    
-            <h6 class="p-2 fw-bold border-bottom ">Información de Contacto</h6>
-            <p class="p-2">Para nosotros es muy importante estar en contacto, es por esto que ponemos a disposición diferentes medios para hacerlo.</p>
-            <span><i class="fa-solid fa-signs-post p-2"></i>Direccion 123 - Paternal - CABA</span>
-            <span><i class="fa-solid fa-headset p-2"></i>+54 11 1234-5678</span>
-            <span><i class="fa-solid fa-envelope p-2"></i>galatea@ejemplo.com</span>
-    
+          <div class="col-md-4 d-flex flex-column">
+      
+              <h6 class="p-2 fw-bold border-bottom  mt-3">Información de Contacto</h6>
+              
+              <p class="p-2">Para nosotros es muy importante estar en contacto, es por esto que ponemos a disposición diferentes medios para hacerlo.</p>
+              <span><i class="fa-solid fa-signs-post p-2"></i>Direccion 123 - Paternal - CABA</span>
+              <span><i class="fa-solid fa-headset p-2"></i>+54 11 1234-5678</span>
+              <span><i class="fa-solid fa-envelope p-2"></i>galatea@ejemplo.com</span>
+
           </div>
     
-          <div class="col-md-3 d-flex flex-column">
+          <div class="col-md-4 d-flex flex-column">
     
-                <h6 class="p-2 fw-bold border-bottom">¿Necesitas ayuda?</h6>
-                <div>
-                      <a class="nav-link p-2" href="./pages/residencias.html">Nuestras Residencias</a>
-                      <a class="nav-link p-2" href="./pages/servicios.html">Servicios</a>
-                      <a class="nav-link p-2" href="./pages/actividades.html">Actividades</a>
-                      <a class="nav-link p-2" href="./pages/contacto.html">Preguntas Frecuentes</a>
-                      <a class="nav-link p-2" href="./pages/contacto.html">Contacto</a>
+                <h6 class="p-2 fw-bold border-bottom  mt-3">¿Necesitas ayuda?</h6>
+                <div class="link-ayuda-footer">
+                      <a class="nav-link p-2 lh-sm fs-6" href="./pages/residencias.html">Nuestras Residencias</a>
+                      <a class="nav-link p-2 lh-sm fs-6" href="./pages/servicios.html">Servicios</a>
+                      <a class="nav-link p-2 lh-sm fs-6" href="./pages/actividades.html">Actividades</a>
+                      <a class="nav-link p-2 lh-sm fs-6" href="./pages/contacto.html">Preguntas Frecuentes</a>
+                      <a class="nav-link p-2 lh-sm fs-6" href="./pages/contacto.html">Contacto</a>
                 </div>
           </div>
     
-          <div class="col-md-3 d-flex flex-column">
+          <div class="col-md-4 d-flex flex-column">
     
-                <h6 class="p-2 fw-bold border-bottom">Algunos Sevicios</h6>
-                <div>
-                      <a class="nav-link p-2" href="./pages/servicios.html">Kinesiologia</a>
-                      <a class="nav-link p-2" href="./pages/servicios.html">Nutricionista</a>
-                      <a class="nav-link p-2" href="./pages/servicios.html">Estetica </a>
-                      <a class="nav-link p-2" href="./pages/servicios.html">Psiquiatria</a>
-                </div>
-            
-          </div>
-    
-          <div class="col-md-3 d-flex flex-column">
-    
-            <h6 class="p-2 fw-bold border-bottom">Seguinos en Redes</h6>
+            <h6 class="p-2 fw-bold border-bottom  mt-3">Seguinos en Redes</h6>
     
                 <div class="red-social">
     
