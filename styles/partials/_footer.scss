@@ -11,20 +11,33 @@ figure a img{
 
 .red-social a{
     
-        display: inline-block;
-        text-decoration: none;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
+         display: inline-block;
+         text-decoration: none;
+         width: 45px;
+         height: 45px;
+         line-height: 45px;
         color: rgb(0, 0, 0);
-        margin-right:10px;
+         margin-right:10px;
         background-color: rgb(255, 255, 255);
-        text-align: center;
-        transition: all 300ms ease;
+         text-align: center;
 
-         &:hover{
-            color: rgb(255, 255, 255);
-            background-color: rgb(47, 46, 46);
+}
+
+$redes: (
+	facebook: #627cab,
+	instagram:#b06891,
+	youtube: #c56161,
+    whatsapp: #5ec283
+);
+
+@each $redsocial, $colordered in $redes {
+    .fa-#{$redsocial} {
+        background: white;
+        &:hover {
+            background: $colordered;
+            .red__nombre {
+                color: white;
+            }
+        }
     }
-    
 }
