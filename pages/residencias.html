@@ -26,9 +26,6 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class=" navbar-nav nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link"  href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="../pages/residencias.html">Residencias</a>
               </li>
               <li class="nav-item">
@@ -48,55 +45,71 @@
 
     <section class="container">
 
-        <div class="row mt-5 mb-5">
+        <div class="row col-md-12 mt-5 h-25 mb-5">
 
-            <div class="col-md-7 mt-5 d-flex flex-column justify-content-center">
-        
-                <h3 class="pb-2 fs-1 fw-bold">NUESTRAS RESIDENCIAS</h3>
-                <p>
-                    Residencia Galatea, brinda una servicio premium, funciona en un edificio construido especialmente para brindar la mayor seguridad,
-                    confort y calidad de vida a las personas mayores, con y sin discapacidad. Con siete plantas y más de 1000 m2, cuenta con los últimos avances en arquitectura
-                    para personas mayores y fue diseñado por el propio arquitecto Fernando Raul Cervini, Director y Asesor del establecimiento.
-                </p>
-        
+          <div id="carouselExampleIndicators" class="carousel slide carousel-fade mt-5 col-md-12" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-            <div id="carouselExampleIndicators" class="carousel slide mt-5 col-md-5" data-bs-ride="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="carousel-inner rounded">
+              <div class="carousel-item active">
+                <img src="../assets/img/dormitorio.png" class="d-block w-100" alt="dormitorio">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25 rounded-pill">
+                  <h5 class="pb-2 fs-4 fw-bold">Dormitorios</h5>
+                  <p class="fs-5">Con capacidad de 2 hasta 4 residentes.</p>
                 </div>
-                <div class="carousel-inner rounded">
-                  <div class="carousel-item active">
-                    <img src="../assets/img/dormitorio.png" class="d-block w-100 " alt="dormitorio">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../assets/img/gimnasio.png" class="d-block w-100 " alt="gimnasio">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../assets/img/comedor.png" class="d-block w-100 " alt="comedor">
-                  </div>
-
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/gimnasio.png" class="d-block w-100" alt="gimnasio">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25 rounded-pill">
+                  <h5 class="pb-2 fs-4 fw-bold">Gimnasio</h5>
+                  <p class="fs-5">Totalmente equipado.</p>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/comedor.png" class="d-block w-100" alt="comedor">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-25 rounded-pill">
+                  <h5 class="pb-2 fs-4 fw-bold ">Comedor</h5>
+                  <p class="fs-5">Espacio comun para todas las comidas.</p>
+                </div>
+              </div>
+              
             </div>
-                
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            
+          </div>
         </div>
+          
+      </section>
 
-    </section>
+      <section class="container">
+
+        <div class="col-md-12 mt-5 d-flex flex-column justify-content-center">
+          
+          <h3 class="pb-2 fs-1 fw-bold">NUESTRAS RESIDENCIAS</h3>
+          <p>
+              Residencia Galatea, brinda una servicio premium, funciona en un edificio construido especialmente para brindar la mayor seguridad,
+              confort y calidad de vida a las personas mayores, con y sin discapacidad. Con siete plantas y más de 1000 m2, cuenta con los últimos avances en arquitectura
+              para personas mayores y fue diseñado por el propio arquitecto Fernando Raul Cervini, Director y Asesor del establecimiento.
+          </p>
+
+        </div>
+      </section>
         
-    <section class="container text-center bg-dark mw-100 text-light py-5 mx-auto  ">
+    <section class="mw-100 bg-dark mt-3">
+          
+          <div class="container">
+            <div class="row text-center text-light py-5 mx-auto  ">
 
-            <div class="row">
 
                 <div class="col-md-4">
 
@@ -117,7 +130,7 @@
                 </div>
 
             </div>
-            
+            </div>
     </section>
 
     <section class="container mt-5 mb-5 bg-success p-2 text-dark bg-opacity-10 rounded-5 shadow rounded">

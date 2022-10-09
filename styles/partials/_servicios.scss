@@ -1,0 +1,10 @@
+.servicios__card{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .servicios__card__tarjetas{
+        width: 18rem;
+    }
+}

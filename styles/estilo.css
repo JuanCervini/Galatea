@@ -7,9 +7,9 @@
 }
 
 .hero {
-  width: 100%;
-  height: 100vh;
   background-image: linear-gradient(rgba(103, 104, 90, 0.85), rgb(53, 53, 53)), url(./../assets/img/abuelos.jpg);
+  width: 100%;
+  height: 50%;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -148,4 +148,18 @@ figure a img {
 }
 .fa-whatsapp:hover .red__nombre {
   color: white;
+}
+
+.servicios__card {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.servicios__card .servicios__card__tarjetas {
+  width: 18rem;
+}
+
+.carousel {
+  height: 40%;
 }/*# sourceMappingURL=estilo.css.map */
